@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Biswarup</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <a href="index.html" class="site-title" style="text-decoration: none; color: inherit;">
+      <h1 style="display: flex; align-items: center; gap: 12px; justify-content: center;">
+        <span>Swapna Roy</span>
+      </h1>
+    </a>
+    <nav>
+      <ul class="tab-nav">
+        <li class="tab active" data-tab="home">Home</li>
+        <li class="tab" data-tab="projects">Images</li>
+      </ul>
+    </nav>
+    <div id="google_translate_element"
+      style="position: absolute; top: 18px; right: 30px; z-index: 10;">
+    </div>
+  </header>
+
+  <main>
+    <!-- Home Tab -->
+    <section id="home" class="tab-content active">
+      <div class="profile-section"
+        style="display: flex; flex-wrap: wrap; align-items: center; gap: 32px; margin-bottom: 32px;">
+        <img src="profile.jpg" alt="Swapna Roy" class="profile-img"
+          style="width: 240px; max-width: 90vw; border-radius: 16px; box-shadow: 0 4px 24px #0007; border: 4px solid #d8b4fe; background: #fff;" />
+        <div style="flex: 1; min-width: 220px;">
+          <h2>About Me</h2>
+          <p>Hello! My name is Swapna Roy. I am passionate about dancing, singing, cooking delicious food, creating art,
+            handcrafting, sewing clothes, and making sweaters. I love expressing myself through creativity and sharing
+            joy
+            with others. Except this I work in a Bank.</p>
+        </div>
+      </div>
+
+      <h3>Skills</h3>
+      <ul class="info-list">
+        <li>💃 Dancing (classical, folk, and modern)</li>
+        <li>🎤 Singing</li>
+        <li>🍳 Cooking and experimenting with recipes</li>
+        <li>🎨 Drawing, painting, and crafts</li>
+        <li>🧵 Sewing clothes and embroidery</li>
+        <li>🧶 Knitting and making sweaters</li>
+        <li>👩‍🍳 Baking cakes and sweets</li>
+        <li>👐 Handcrafting decorative items</li>
+        <li>🤝 Teamwork and collaboration in group activities</li>
+        <li>🌟 Creativity and attention to detail</li>
+      </ul>
+
+      <h3>Hobbies</h3>
+      <ul class="info-list">
+        <li>💃 Dancing</li>
+        <li>🎤 Singing</li>
+        <li>🍳 Cooking and baking</li>
+        <li>🎨 Art and crafts</li>
+        <li>🧵 Sewing and embroidery</li>
+        <li>🧶 Knitting sweaters</li>
+        <li>📚 Reading magazines and recipe books</li>
+        <li>👩‍👧 Spending time with family and friends</li>
+      </ul>
+    </section>
+
+    <!-- Projects Tab -->
+    <section id="projects" class="tab-content">
+      <h2 align="center">Creative Projects</h2>
+      <div class="mac-window">
+        <div class="window-bar">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="window-title">Handmade Sweater Gallery</span>
+        </div>
+        <div class="excel-frame-wrapper" style="padding: 24px; text-align: center;">
+          <img src="sweater1.jpg" alt="Handmade Sweater" style="max-width: 200px; margin: 10px;">
+          <img src="sweater2.jpg" alt="Handmade Sweater" style="max-width: 200px; margin: 10px;">
+          <img src="art1.jpg" alt="Art & Craft" style="max-width: 200px; margin: 10px;">
+          <p style="margin-top: 16px;">A few of my favorite handmade sweaters and crafts.</p>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'},
+                'google_translate_element'
+            );
+        }
+    </script>
+
+    <script type="text/javascript" 
+            src=
+"https://translate.google.com/translate_a/element.js?
+cb=googleTranslateElementInit">
+    </script>
+</body>
+
+</html>
